@@ -1,7 +1,5 @@
 # An introduction to npm
 
-Node is a way of running Chrome's V8 JavaScript engine outside of the browser. You'll be learning more about this later in the course.
-
 npm is Node's package manager. It's a repository of hundreds of thousands of useful pieces of code that you may want to integrate with your Node project.
 
 npm also has a command line tool that lets us easily install, manage and run projects.
@@ -77,6 +75,5 @@ This is an added feature of npm scripts.
 3. Install Cowsay `npm install cowsay -D`
 4. Have a look at the `package.json` file
 5. Open `node_modules` and see if you can find Cowsay
-6. Run `node_modules/.bin/cowsay hello`
-7. Add `"greeting": "cowsay hello"` to your npm scripts
-8. Run `npm run greeting`
+7. Add `"greeting": "cowsay hello"` to your npm scripts in your `package.json`
+8. Run `npm run greeting` in the terminal
